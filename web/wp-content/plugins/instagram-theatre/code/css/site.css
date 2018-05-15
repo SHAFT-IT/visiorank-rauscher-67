@@ -1,0 +1,214 @@
+/*
+	Theme Name: Instagram Theatre
+	Author: Chris Rivers
+	Version: 1.0
+	Description: A Simple Wordpress Theme
+
+	Wordpress Plugin
+	--------------------------
+	Build Version : 	1.0.0
+	Author : 			xxcriversxx@gmail.com
+	Website :			http://chrisriversdesign.com
+	
+	00 : MEDIA QUERIES - Common breakpoints	
+	
+	A note regarding - MEDIA QUERIES
+	--------------------------------
+	Skip to the bottom of the stylesheet, all media queries and breakpoints are in this stylesheet. 
+	This is now based on a mobile first approach and there's more flexibility and convenience in using 
+	inline declarations because there's only one stylesheet to maintain.
+*/
+
+/*========= 
+   Instagram Theatre 
+====================*/
+/* Rules 
+----------------*/
+a:hover { text-decoration:none; }
+
+/* Main Content
+----------------------*/
+.main-content {
+	padding-left:288px;
+}
+
+/* Default Theme Style */
+.page-template-default .main-content .photo-nav { display:none; }
+	
+/* Main Style */
+.main-content .photo-nav { margin-top:322px; position:relative; }
+.main-content .photo-nav a {
+	cursor:pointer;
+	display:inline-block;
+	height:48px; 
+	position:absolute;
+	width:48px; 
+}
+
+.main-content .photo-nav a.prev {
+	background:url("images/prev.png") no-repeat;
+}
+
+.main-content .photo-nav a.next {
+	background:url("images/next.png") no-repeat;
+	right:0;
+}
+
+/* Plugin CSS 
+-------------------------*/
+.instagram-photo {
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  border-bottom-color: #fff;
+  border-bottom-style: solid;
+  border-bottom-width: 5px;
+  border-image-outset: 0 0 0 0;
+  border-image-repeat: stretch stretch;
+  border-image-slice: 100% 100% 100% 100%;
+  border-image-source: none;
+  border-image-width: 1 1 1 1;
+  border-left-color: #fff;
+  border-left-style: solid;
+  border-left-width: 5px;
+  border-right-color: #fff;
+  border-right-style: solid;
+  border-right-width: 5px;
+  border-top-color: #fff;
+  border-top-style: solid;
+  border-top-width: 5px;
+  display: inline-block;
+  height: 192px;
+  margin-bottom: 10px;
+  margin-left: 0;
+  margin-right: 10px;
+  margin-top: 10px;
+  position: relative;
+  width: 192px;
+}
+.instagram-photo .instagram-hover-cover {
+	background:#111;
+	bottom:0;
+	overflow:hidden;
+	position:absolute;
+	z-index:1000;
+}
+
+.instagram-photo .instagram-hover-cover h3 { color:#fff; line-height: 20px; margin:15px 17px 0 17px; text-transform:capitalize; }
+.instagram-photo .instagram-hover-cover em { display:inline-block; font-size:11px; font-style:normal; height: 14px; margin: 0 17px; text-transform:uppercase; }
+.instagram-photo .instagram-hover-cover p { color:#D7D7D7; line-height:17px; margin: -1px 17px 0 17px; }
+
+.instagram-theatre {
+	padding-bottom: 62px;
+	top: 61px;
+	width: auto;
+	z-index: 99;
+}
+
+#seachInstagramLoadMoreContainer {
+	text-align:center;
+}
+
+.instagram-theatre.list .instagram-photo {
+	position: relative;
+	height:auto;
+	width: 620px;
+}
+
+/* User List */
+.instagram-user-all {
+    background: none repeat scroll 0 0 transparent;
+	display: inline-block;
+	float: left;
+	height: 228px;
+	padding: 19px 17px;
+}
+
+.instagram-user-all img {
+	margin-right:15px;
+}
+
+.instagram-user-all .instagram-username {
+	color: #FFFFFF;
+	display: block;
+	font-size: 15px;
+	font-weight: bold;
+	margin-bottom: 3px;
+	margin-top: 5px;
+}
+.instagram-user-all .instagram-username:hover { color:#2E6F8F; cursor:pointer; }
+
+.instagram-user-all .instagram-fullname {
+	color:#666;
+}
+
+/* Responsive Mobile
+-----------------------------*/
+/* Tablets */
+@media screen and (max-width: 1249px) {
+ 	.instagram-theatre {
+		width: 100% !important;
+	}
+	
+	.instagram-theatre.list .instagram-photo {
+		width:100%;
+	}
+	.instagram-photo {
+
+  height: auto;
+  margin-bottom: 10px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 10px;
+
+  width: 100%;
+}
+}
+
+/* iPad */
+@media screen and (max-width: 833px) {
+	.sidebar-nav, .photo-nav, .customization-bar {
+		display: none;
+	}
+	
+	.caption-container {
+		margin: 0 auto;
+		right: auto;
+		width:auto;
+	}
+	
+	.instagram-theatre {
+		margin: 0 auto ;
+		position: static;
+		width: 100% !important;
+	}
+	
+	.instagram-theatre.list .instagram-photo {
+		width:100%;
+	}
+	
+}
+
+/* iPhone */
+@media screen and (max-width: 480px) {
+	.instagram-theatre {
+		margin-left: 0;
+		width: 100% !important;
+	}
+	
+	.instagram-theatre.list .instagram-photo {
+		width:100%;
+	}
+	.instagram-photo {
+
+  height: auto;
+  margin-bottom: 10px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 10px;
+
+  width: 100%;
+}
+}
+

@@ -1,0 +1,44 @@
+/*	Right To Left CSS
+/*-----------------------------------------------------------------------------------*/
+
+	.rtl .inside-post-slider .flex-control-nav{left:7px;right:auto;}
+	.rtl .slideMenu ul li{float:right;}
+	.rtl .slideMenu ul li ul{left:auto;right:0px;}
+	.rtl .slideMenu ul li ul li ul{left:0px;right:auto;}
+	.rtl .top-nav-right.right{float:left;}
+	.rtl .search-block.right{float: left}
+	.rtl .search-submit{left:8px;right:auto;}
+	.rtl #searchform{margin-right:6px;}
+	.rtl .logo-left{float:right;}
+	.rtl .logo-right-widget.right{float:left;}
+	.rtl .carousel-post-title{text-align: right;}
+	.rtl .small-post-thumb,.rtl .widget-post-thumb{float:right;margin-right:0px;margin-left:15px;}
+	.rtl .list-tabbed li{float:right;}
+	.rtl .sidebar .widget_calendar #wp-calendar caption{text-align: right;}
+	.rtl  #searchform #searchsubmit{float:left; margin-top: 0;}
+	.rtl .sidebar #searchform #s{width: 226px;}
+	.rtl .widget_nav_menu ul li ul li{padding-left:0px;padding-right:20px;}
+	.rtl .categories{float:left;}
+	.rtl .review-box-wrapper .left{float:right;}
+	.rtl .review-box-wrapper .right{float:left;}
+	.rtl .share_entry_text{float:right;}
+	.rtl .avatar{float:right;margin-right:0px;margin-left:25px;}
+	.rtl .comment-author{float:right;}
+	.rtl a.comment-reply-link{float:left;}
+	.rtl .connect-widget-social a{margin-right:0px;margin-left:15px;}
+	.rtl .posts-carousel .carousel-prev{right:auto;left:0px;}
+	.rtl .posts-carousel .carousel-next{right:auto;left:20px;}
+	.rtl .footer-outer-wrapper #searchform #s{width:142px;}
+	.rtl .footer-wrapper .widget_calendar #wp-calendar caption{text-align: right;}
+	.rtl .copyright-left.left{float:right;}
+	.rtl .copyright-right.right{float:left;}
+	.rtl .copyright-wrapper ul li{background-image: none;}
+
+/*	Right To Left Responsive
+/*-----------------------------------------------------------------------------------*/
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) (4)*/
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+		.rtl .sidebar #searchform #s{ width: 135px;}
+		.rtl .footer-outer-wrapper #searchform #s{width:74px;}
+	}

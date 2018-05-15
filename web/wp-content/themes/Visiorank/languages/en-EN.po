@@ -1,0 +1,1754 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: magazone 1.0\n"
+"POT-Creation-Date: 2013-03-07 12:46+0700\n"
+"PO-Revision-Date: 2013-03-07 12:46+0700\n"
+"Last-Translator: Sa Hoang Truong <shrimp2t2gmail.com>\n"
+"Language-Team: Sa\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_x;_n\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../magazon-wp/comments.php:7
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: ../magazon-wp/comments.php:17 ../magazon-wp/comments.php:32
+msgid "No Responses"
+msgstr ""
+
+#: ../magazon-wp/comments.php:17 ../magazon-wp/comments.php:32
+msgid "One Response"
+msgstr ""
+
+#: ../magazon-wp/comments.php:17 ../magazon-wp/comments.php:32
+msgid "% Responses"
+msgstr ""
+
+#: ../magazon-wp/comments.php:23
+msgid "Older Comments"
+msgstr ""
+
+#: ../magazon-wp/comments.php:24
+msgid "Newer Comments"
+msgstr ""
+
+#: ../magazon-wp/comments.php:33
+msgid "to"
+msgstr ""
+
+#: ../magazon-wp/comments.php:37
+msgid "Comments are closed."
+msgstr ""
+
+#: ../magazon-wp/comments.php:46 ../magazon-wp/comments.php:126
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: ../magazon-wp/comments.php:50
+msgid "You must be"
+msgstr ""
+
+#: ../magazon-wp/comments.php:52
+msgid "logged in"
+msgstr ""
+
+#: ../magazon-wp/comments.php:54
+msgid "to post a comment."
+msgstr ""
+
+#: ../magazon-wp/comments.php:121
+#, php-format
+msgid "Required fields are marked %s"
+msgstr ""
+
+#: ../magazon-wp/comments.php:125
+msgid "Leave a Reply"
+msgstr ""
+
+#: ../magazon-wp/comments.php:127
+msgid "Cancel Reply"
+msgstr ""
+
+#: ../magazon-wp/comments.php:128
+msgid "Post Comment"
+msgstr ""
+
+#: ../magazon-wp/comments.php:129
+msgid "Comment"
+msgstr ""
+
+#: ../magazon-wp/comments.php:130
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: ../magazon-wp/comments.php:131
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out?</a>"
+msgstr ""
+
+#: ../magazon-wp/comments.php:132
+msgid "Your email address will not be published."
+msgstr ""
+
+#: ../magazon-wp/comments.php:135
+msgid "Name"
+msgstr ""
+
+#: ../magazon-wp/comments.php:136
+msgid "Email"
+msgstr ""
+
+#: ../magazon-wp/comments.php:137
+msgid "Website"
+msgstr ""
+
+#: ../magazon-wp/header.php:59
+msgid "SEARCH..."
+msgstr ""
+
+#: ../magazon-wp/header.php:60
+msgid "Search"
+msgstr ""
+
+#: ../magazon-wp/header.php:66
+msgid "Facebook"
+msgstr ""
+
+#: ../magazon-wp/header.php:69
+msgid "Google Plus"
+msgstr ""
+
+#: ../magazon-wp/header.php:72
+msgid "Twitter"
+msgstr ""
+
+#: ../magazon-wp/header.php:75
+msgid "Linkedin"
+msgstr ""
+
+#: ../magazon-wp/header.php:78
+msgid "Pinterest"
+msgstr ""
+
+#: ../magazon-wp/header.php:98
+#: ../magazon-wp/st-framework/settings/admin-settings.php:574
+msgid "Logo"
+msgstr ""
+
+#: ../magazon-wp/header.php:123
+msgid "Navigation"
+msgstr ""
+
+#: ../magazon-wp/index.php:27
+msgid "Pages:"
+msgstr ""
+
+#: ../magazon-wp/index.php:32
+msgid "Next page"
+msgstr ""
+
+#: ../magazon-wp/index.php:33
+msgid "Previous page"
+msgstr ""
+
+#: ../magazon-wp/st-framework/st-load.php:77
+msgid "Blue"
+msgstr ""
+
+#: ../magazon-wp/st-framework/st-load.php:78
+msgid "Olive"
+msgstr ""
+
+#: ../magazon-wp/st-framework/st-load.php:79
+msgid "Orange"
+msgstr ""
+
+#: ../magazon-wp/st-framework/st-load.php:80
+msgid "Yellow"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/admin-functions.php:410
+#: ../magazon-wp/st-framework/admin/admin-functions.php:1210
+#: ../magazon-wp/st-framework/admin/admin-functions.php:1281
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder-functions.php:185
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder-functions.php:246
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder-functions.php:368
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder-functions.php:798
+msgid "Select Image"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/admin-functions.php:419
+#: ../magazon-wp/st-framework/admin/admin-functions.php:1176
+#: ../magazon-wp/st-framework/admin/admin-functions.php:1211
+#: ../magazon-wp/st-framework/admin/admin-functions.php:1255
+#: ../magazon-wp/st-framework/admin/admin-functions.php:1282
+#: ../magazon-wp/st-framework/admin/admin-nav-custom.php:258
+#: ../magazon-wp/st-framework/admin/admin-scripts.php:25
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder-functions.php:186
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder-functions.php:247
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder-functions.php:369
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder-functions.php:799
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder.php:49
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder.php:225
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder.php:281
+#: ../magazon-wp/st-framework/admin/review-control/review.php:136
+#: ../magazon-wp/st-framework/admin/review-control/review.php:157
+msgid "Remove"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/admin-functions.php:466
+#: ../magazon-wp/st-framework/admin/admin-functions.php:846
+#: ../magazon-wp/st-framework/admin/admin-functions.php:949
+#: ../magazon-wp/st-framework/admin/admin-functions.php:1193
+#: ../magazon-wp/st-framework/admin/admin-interface.php:92
+#: ../magazon-wp/st-framework/admin/admin-interface.php:108
+msgid "Select"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/admin-functions.php:774
+msgid "Font family"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/admin-functions.php:788
+msgid "Font style"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/admin-functions.php:800
+msgid "Font weight"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/admin-functions.php:813
+msgid "Font Preview"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/admin-functions.php:1177
+#: ../magazon-wp/st-framework/admin/admin-functions.php:1186
+#: ../magazon-wp/st-framework/admin/admin-functions.php:1256
+#: ../magazon-wp/st-framework/admin/admin-functions.php:1263
+#: ../magazon-wp/st-framework/lib/widgets/ads-125.php:190
+#: ../magazon-wp/st-framework/lib/widgets/flickr.php:96
+#: ../magazon-wp/st-framework/lib/widgets/popular-posts.php:32
+#: ../magazon-wp/st-framework/lib/widgets/recent-comments.php:32
+#: ../magazon-wp/st-framework/lib/widgets/recent-posts.php:32
+#: ../magazon-wp/st-framework/lib/widgets/related-posts.php:32
+#: ../magazon-wp/st-framework/lib/widgets/socials-connect.php:151
+msgid "Title:"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/admin-functions.php:1191
+#: ../magazon-wp/st-framework/admin/admin-functions.php:1269
+msgid "Apply to hook"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/admin-functions.php:1223
+#: ../magazon-wp/st-framework/admin/admin-functions.php:1295
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder-functions.php:397
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder-functions.php:827
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder-functions.php:889
+msgid "Automatically add paragraphs"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/admin-functions.php:1224
+#: ../magazon-wp/st-framework/admin/admin-functions.php:1296
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder-functions.php:380
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder-functions.php:810
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder-functions.php:882
+msgid "Arbitrary text or HTML"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/admin-functions.php:1235
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder-functions.php:209
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder-functions.php:270
+msgid "Delete"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/admin-functions.php:1236
+msgid "Close"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/admin-functions.php:1279
+msgid "Image:"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/admin-functions.php:1288
+msgid "url:"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/admin-int.php:42
+msgid "User this image"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/admin-interface.php:62
+msgid " Language settings saved."
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/admin-interface.php:85
+msgid "options languages settings"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/admin-interface.php:86
+msgid "Keep same settings for all languages"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/admin-interface.php:90
+msgid "Copy options from"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/admin-interface.php:93
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder-functions.php:412
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder-functions.php:844
+msgid "Default"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/admin-interface.php:106
+msgid "To"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/admin-interface.php:117
+msgid "Save changes"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/admin-interface.php:124
+msgid "Options for"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/admin-interface.php:124
+msgid "All languages"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/admin-interface.php:165
+msgid "theme options has been RESET."
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/admin-interface.php:177
+msgid "ST Framework"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/admin-interface.php:234
+msgid "Save All Changes"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/admin-interface.php:253
+msgid "Save Changes"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/admin-meta-box.php:51
+msgid "Page Builder"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/admin-nav-custom.php:124
+#, php-format
+msgid "%s (Invalid)"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/admin-nav-custom.php:128
+#, php-format
+msgid "%s (Pending)"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/admin-nav-custom.php:169
+msgid "Edit Menu Item"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/admin-nav-custom.php:178
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder-functions.php:387
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder-functions.php:817
+msgid "URL"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/admin-nav-custom.php:185
+msgid "Navigation Label"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/admin-nav-custom.php:191
+msgid "Title Attribute"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/admin-nav-custom.php:198
+msgid "Open link in a new window/tab"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/admin-nav-custom.php:203
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/admin-nav-custom.php:209
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/admin-nav-custom.php:215
+msgid "Description"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/admin-nav-custom.php:217
+msgid ""
+"The description will be displayed in the menu if the current theme supports "
+"it."
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/admin-nav-custom.php:232
+msgid "Menu color"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/admin-nav-custom.php:245
+#, php-format
+msgid "Original: %s"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/admin-nav-custom.php:259
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder.php:238
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder.php:293
+msgid "Cancel"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/admin-post-type.php:37
+msgid "Images"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/admin-scripts.php:24
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder.php:48
+msgid "View full image"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/admin-scripts.php:26
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder.php:50
+msgid "Seletc Image"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/admin-tax.php:47
+msgid "Custom Sidebar"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/admin-tax.php:58
+msgid "Enable Top slider"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/admin-tax.php:61
+#: ../magazon-wp/st-framework/admin/admin-tax.php:188
+#: ../magazon-wp/st-framework/settings/admin-settings.php:81
+#: ../magazon-wp/st-framework/settings/admin-settings.php:92
+#: ../magazon-wp/st-framework/settings/admin-settings.php:130
+#: ../magazon-wp/st-framework/settings/admin-settings.php:198
+#: ../magazon-wp/st-framework/settings/admin-settings.php:208
+#: ../magazon-wp/st-framework/settings/admin-settings.php:218
+#: ../magazon-wp/st-framework/settings/admin-settings.php:257
+#: ../magazon-wp/st-framework/settings/admin-settings.php:354
+#: ../magazon-wp/st-framework/settings/admin-settings.php:379
+#: ../magazon-wp/st-framework/settings/admin-settings.php:386
+#: ../magazon-wp/st-framework/settings/admin-settings.php:407
+#: ../magazon-wp/st-framework/settings/admin-settings.php:414
+#: ../magazon-wp/st-framework/settings/admin-settings.php:421
+#: ../magazon-wp/st-framework/settings/admin-settings.php:428
+msgid "No"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/admin-tax.php:62
+#: ../magazon-wp/st-framework/admin/admin-tax.php:189
+#: ../magazon-wp/st-framework/settings/admin-settings.php:81
+#: ../magazon-wp/st-framework/settings/admin-settings.php:92
+#: ../magazon-wp/st-framework/settings/admin-settings.php:130
+#: ../magazon-wp/st-framework/settings/admin-settings.php:198
+#: ../magazon-wp/st-framework/settings/admin-settings.php:208
+#: ../magazon-wp/st-framework/settings/admin-settings.php:218
+#: ../magazon-wp/st-framework/settings/admin-settings.php:257
+#: ../magazon-wp/st-framework/settings/admin-settings.php:355
+#: ../magazon-wp/st-framework/settings/admin-settings.php:379
+#: ../magazon-wp/st-framework/settings/admin-settings.php:386
+#: ../magazon-wp/st-framework/settings/admin-settings.php:407
+#: ../magazon-wp/st-framework/settings/admin-settings.php:414
+#: ../magazon-wp/st-framework/settings/admin-settings.php:421
+#: ../magazon-wp/st-framework/settings/admin-settings.php:428
+msgid "Yes"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/admin-tax.php:71
+#: ../magazon-wp/st-framework/admin/settings-plugins/mtb-gallery.php:55
+msgid "Slider type"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/admin-tax.php:74
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder-functions.php:730
+msgid "Carousel"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/admin-tax.php:75
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder-functions.php:592
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder.php:452
+#: ../magazon-wp/st-framework/settings/admin-settings.php:603
+msgid "Slider"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/admin-tax.php:84
+msgid "How many numpost to show ?"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/admin-tax.php:93
+msgid "exclude"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/admin-tax.php:97
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder-functions.php:649
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder-functions.php:1027
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder.php:515
+msgid "Enter post IDs, separated by commas"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/admin-tax.php:103
+msgid "Order By"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/admin-tax.php:106
+msgid "title"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/admin-tax.php:107
+msgid "comment count"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/admin-tax.php:108
+msgid "Random"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/admin-tax.php:117
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder-functions.php:678
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder-functions.php:1057
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder.php:543
+msgid "Order"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/admin-tax.php:120
+msgid "Descending"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/admin-tax.php:121
+msgid "Ascending"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/admin-tax.php:135
+#: ../magazon-wp/st-framework/settings/admin-settings.php:301
+msgid "Background color"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/admin-tax.php:144
+#: ../magazon-wp/st-framework/settings/admin-settings.php:310
+msgid "Background image"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/admin-tax.php:153
+#: ../magazon-wp/st-framework/settings/admin-settings.php:319
+msgid "Background positon"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/admin-tax.php:156
+#: ../magazon-wp/st-framework/admin/review-control/review.php:175
+#: ../magazon-wp/st-framework/settings/admin-settings.php:322
+msgid "Top left"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/admin-tax.php:157
+#: ../magazon-wp/st-framework/settings/admin-settings.php:323
+msgid "Top center"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/admin-tax.php:158
+#: ../magazon-wp/st-framework/admin/review-control/review.php:176
+#: ../magazon-wp/st-framework/settings/admin-settings.php:324
+msgid "Top right"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/admin-tax.php:159
+#: ../magazon-wp/st-framework/settings/admin-settings.php:325
+msgid "Center"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/admin-tax.php:160
+#: ../magazon-wp/st-framework/admin/review-control/review.php:178
+#: ../magazon-wp/st-framework/settings/admin-settings.php:326
+msgid "Bottom left"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/admin-tax.php:161
+#: ../magazon-wp/st-framework/admin/review-control/review.php:179
+#: ../magazon-wp/st-framework/settings/admin-settings.php:327
+msgid "Bottom right"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/admin-tax.php:162
+#: ../magazon-wp/st-framework/settings/admin-settings.php:328
+msgid "Bottom center"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/admin-tax.php:171
+#: ../magazon-wp/st-framework/settings/admin-settings.php:337
+msgid "Background repreat"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/admin-tax.php:174
+#: ../magazon-wp/st-framework/settings/admin-settings.php:340
+msgid "No repeat"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/admin-tax.php:175
+#: ../magazon-wp/st-framework/settings/admin-settings.php:341
+msgid "Repeat X"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/admin-tax.php:176
+#: ../magazon-wp/st-framework/settings/admin-settings.php:342
+msgid "Repeat Y"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/admin-tax.php:185
+#: ../magazon-wp/st-framework/settings/admin-settings.php:351
+msgid "Background fixed"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/ajax-media.php:76
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder-ajax-media.php:89
+msgid "&laquo; Previous"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/ajax-media.php:77
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder-ajax-media.php:90
+msgid "Next &raquo;"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/editor/dialog.php:34
+msgid "ST Short Code"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/editor/dialog.php:67
+msgid "Headings"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/editor/dialog.php:68
+msgid "Buttons"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/editor/dialog.php:69
+msgid "Columns"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/editor/dialog.php:70
+msgid "Other"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/editor/dialog.php:103
+#: ../magazon-wp/st-framework/admin/editor/dialog.php:137
+msgid "Small Button"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/editor/dialog.php:110
+#: ../magazon-wp/st-framework/admin/editor/dialog.php:144
+msgid "Medium Button"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/editor/dialog.php:117
+#: ../magazon-wp/st-framework/admin/editor/dialog.php:151
+msgid "Large Button"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/editor/dialog.php:180
+msgid "4 Columns"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/editor/dialog.php:189
+msgid "3 Columns"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/editor/dialog.php:196
+msgid "2 Columns"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/editor/dialog.php:203
+msgid "1 Column"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/editor/dialog.php:216
+msgid "Dividers and Space"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/editor/dialog.php:221
+msgid "Divider"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/editor/dialog.php:228
+msgid "Space"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/editor/dialog.php:235
+msgid "Clear"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/editor/dialog.php:242
+#: ../magazon-wp/st-framework/admin/editor/dialog.php:248
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder.php:456
+msgid "Video"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/editor/dialog.php:255
+msgid "Accordion, tabs, Toggle"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/editor/dialog.php:260
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder-functions.php:298
+msgid "Accordion"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/editor/dialog.php:274
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder-functions.php:313
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder.php:76
+msgid "Toggle"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/editor/dialog.php:289
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder-functions.php:333
+msgid "Tabs"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/editor/dialog.php:330
+msgid "Click to item to add to content"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder-ajax-media.php:106
+msgid "Uploaded for this page"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder-ajax-media.php:138
+msgid "Click to item to add"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder-functions.php:106
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder-functions.php:520
+msgid "Add image"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder-functions.php:301
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder-functions.php:316
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder-functions.php:336
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder-functions.php:358
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder-functions.php:543
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder-functions.php:606
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder-functions.php:748
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder-functions.php:788
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder-functions.php:863
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder-functions.php:943
+msgid "Title"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder-functions.php:351
+msgid "Text"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder-functions.php:366
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder-functions.php:796
+msgid "Image"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder-functions.php:377
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder-functions.php:807
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder-functions.php:880
+msgid "Content"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder-functions.php:391
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder-functions.php:821
+msgid "example"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder-functions.php:403
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder-functions.php:835
+msgid "Show read more link"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder-functions.php:410
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder-functions.php:842
+msgid "More text"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder-functions.php:412
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder-functions.php:844
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder-generate-code.php:60
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder-generate-code.php:253
+msgid "Read more"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder-functions.php:432
+msgid "Edit Image"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder-functions.php:539
+msgid "Images Grid"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder-functions.php:559
+msgid "How many columns to show ?"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder-functions.php:614
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder-functions.php:952
+msgid "Show in Categories"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder-functions.php:638
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder-functions.php:978
+msgid "Num posts to show"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder-functions.php:646
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder-functions.php:1024
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder.php:512
+msgid "Exclude"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder-functions.php:657
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder-functions.php:1035
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder.php:523
+msgid "Order by"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder-functions.php:704
+msgid "Blog Posts Slider"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder-functions.php:717
+msgid "Blog Posts Carousel"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder-functions.php:741
+msgid "Widget"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder-functions.php:756
+msgid "Choose widget area"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder-functions.php:781
+msgid "Service Column"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder-functions.php:856
+msgid "Alert"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder-functions.php:898
+msgid "Notification"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder-functions.php:899
+msgid "Info"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder-functions.php:900
+msgid "Success"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder-functions.php:901
+msgid "Error"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder-functions.php:905
+msgid "Alert type"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder-functions.php:936
+msgid "Blog Posts"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder-functions.php:961
+msgid "All"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder-functions.php:989
+msgid "Disypay Type"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder-functions.php:1007
+msgid "Show custom title"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder-functions.php:1015
+msgid "Show paging"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder-functions.php:1017
+msgid "NOTICE:  This function will not display in home page"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder-generate-code.php:135
+msgid "&#215;"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder.php:71
+msgid "Accordions"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder.php:101
+msgid "Blog Post Slider"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder.php:106
+msgid "Blog Post Carousel"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder.php:193
+msgid "Add Items"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder.php:194
+msgid "Click \"add\" to add item to cavan"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder.php:196
+msgid "Item Added"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder.php:197
+msgid "Item removed"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder.php:206
+msgid "Add"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder.php:224
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder.php:280
+msgid "Click here to edit"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder.php:237
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder.php:292
+msgid "Save"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder.php:314
+msgid "Layout"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder.php:367
+msgid "Sidebar"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder.php:369
+msgid "Left sidebar"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder.php:387
+msgid "Right sidebar"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder.php:419
+msgid "Show page Title"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder.php:419
+msgid "Enable title for this page"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder.php:428
+msgid "Show page content"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder.php:428
+msgid "Enable content for this page"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder.php:446
+msgid "Thumbnail"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder.php:448
+msgid "Image (use featured Image)"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder.php:467
+msgid "Video URL (Youtube or Vimeo only)"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder.php:494
+msgid "Show top carousel"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder.php:494
+msgid "Enable carousel for this page"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder.php:499
+msgid "Select categories to display"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder.php:503
+msgid "Select categories"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/page-builder/page-builder.php:507
+msgid "How many posts to show ?"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/review-control/review.php:18
+msgid "Review Control"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/review-control/review.php:69
+msgid "Enable review"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/review-control/review.php:72
+msgid "Check this to enable review system for this post"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/review-control/review.php:77
+msgid "Ratting Type"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/review-control/review.php:81
+msgid "Number"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/review-control/review.php:82
+msgid "Stars"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/review-control/review.php:83
+msgid "Percent"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/review-control/review.php:111
+msgid "Ratting Criteria"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/review-control/review.php:128
+#: ../magazon-wp/st-framework/admin/review-control/review.php:148
+msgid "Label:"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/review-control/review.php:131
+#: ../magazon-wp/st-framework/admin/review-control/review.php:151
+msgid "Score:"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/review-control/review.php:164
+msgid "Add more"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/review-control/review.php:171
+msgid "Review box position"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/review-control/review.php:177
+msgid "Top"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/review-control/review.php:180
+msgid "Bottom"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/review-control/review.php:205
+msgid "Review box title"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/review-control/review.php:212
+msgid "Total score label"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/review-control/review.php:215
+msgid "Total score label of reiew box in the single post."
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/settings-plugins/mtb-gallery.php:80
+msgid "Slider size (Width x Height)"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/settings-plugins/mtb-gallery.php:90
+msgid "Thumbnai (Width x Height)"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/settings-plugins/mtb-gallery.php:99
+msgid "Effect"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/settings-plugins/mtb-gallery.php:140
+msgid "Slices"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/settings-plugins/mtb-gallery.php:144
+msgid "Boxs (Cols x Rows)"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/settings-plugins/mtb-gallery.php:153
+msgid "Anim Speed"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/settings-plugins/mtb-gallery.php:160
+msgid "Pause Time"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/settings-plugins/mtb-gallery.php:166
+msgid "Start Slide"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/settings-plugins/mtb-gallery.php:170
+msgid "Control Nav"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/settings-plugins/mtb-gallery.php:179
+msgid "Direction Nav"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/settings-plugins/mtb-gallery.php:188
+msgid "Control Nav Thumbs"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/settings-plugins/mtb-gallery.php:197
+#: ../magazon-wp/st-framework/admin/settings-plugins/mtb-gallery.php:316
+#: ../magazon-wp/st-framework/settings/admin-settings.php:413
+msgid "Pause On Hover"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/settings-plugins/mtb-gallery.php:205
+msgid "Manual Advance"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/settings-plugins/mtb-gallery.php:214
+msgid "Random Start"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/settings-plugins/mtb-gallery.php:230
+msgid "Display type"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/settings-plugins/mtb-gallery.php:239
+#: ../magazon-wp/st-framework/admin/settings-plugins/mtb-gallery.php:327
+msgid "Width"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/settings-plugins/mtb-gallery.php:244
+msgid "Animation Loop"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/settings-plugins/mtb-gallery.php:252
+#: ../magazon-wp/st-framework/admin/settings-plugins/mtb-gallery.php:333
+msgid "Height"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/settings-plugins/mtb-gallery.php:257
+msgid "Thumbnai size (Width x Height)"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/settings-plugins/mtb-gallery.php:267
+msgid "Item Margin"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/settings-plugins/mtb-gallery.php:272
+msgid "Item Width"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/settings-plugins/mtb-gallery.php:280
+#: ../magazon-wp/st-framework/settings/admin-settings.php:371
+msgid "Animation"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/settings-plugins/mtb-gallery.php:306
+#: ../magazon-wp/st-framework/settings/admin-settings.php:392
+msgid "Slideshow Speed"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/settings-plugins/mtb-gallery.php:311
+#: ../magazon-wp/st-framework/settings/admin-settings.php:399
+msgid "Animation Speed"
+msgstr ""
+
+#: ../magazon-wp/st-framework/admin/settings-plugins/mtb-gallery.php:353
+msgid "Shortcode"
+msgstr ""
+
+#: ../magazon-wp/st-framework/lib/lib-functions.php:35
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: ../magazon-wp/st-framework/lib/lib-functions.php:430
+#: ../magazon-wp/st-framework/lib/lib-functions.php:446
+#, php-format
+msgid "Permalink to %s"
+msgstr ""
+
+#: ../magazon-wp/st-framework/lib/st-filters.php:21
+msgid "..."
+msgstr ""
+
+#: ../magazon-wp/st-framework/lib/widgets/ads-125.php:196
+msgid "Ads 1 image url:"
+msgstr ""
+
+#: ../magazon-wp/st-framework/lib/widgets/ads-125.php:200
+msgid "Ads 1 url:"
+msgstr ""
+
+#: ../magazon-wp/st-framework/lib/widgets/ads-125.php:206
+msgid "Ads 2 image url:"
+msgstr ""
+
+#: ../magazon-wp/st-framework/lib/widgets/ads-125.php:210
+msgid "Ads 2 url:"
+msgstr ""
+
+#: ../magazon-wp/st-framework/lib/widgets/ads-125.php:216
+msgid "Ads 3 image url:"
+msgstr ""
+
+#: ../magazon-wp/st-framework/lib/widgets/ads-125.php:220
+msgid "Ads 3 url:"
+msgstr ""
+
+#: ../magazon-wp/st-framework/lib/widgets/ads-125.php:226
+msgid "Ads 4 image url:"
+msgstr ""
+
+#: ../magazon-wp/st-framework/lib/widgets/ads-125.php:230
+msgid "Ads 4 url:"
+msgstr ""
+
+#: ../magazon-wp/st-framework/lib/widgets/ads-125.php:236
+msgid "Ads 5 image url:"
+msgstr ""
+
+#: ../magazon-wp/st-framework/lib/widgets/ads-125.php:240
+msgid "Ads 5 url:"
+msgstr ""
+
+#: ../magazon-wp/st-framework/lib/widgets/ads-125.php:246
+msgid "Ads 6 image url:"
+msgstr ""
+
+#: ../magazon-wp/st-framework/lib/widgets/ads-125.php:250
+msgid "Ads 6 url:"
+msgstr ""
+
+#: ../magazon-wp/st-framework/lib/widgets/ads-125.php:256
+msgid "Ads 7 image url:"
+msgstr ""
+
+#: ../magazon-wp/st-framework/lib/widgets/ads-125.php:260
+msgid "Ads 7 url:"
+msgstr ""
+
+#: ../magazon-wp/st-framework/lib/widgets/ads-125.php:266
+msgid "Ads 8 image url:"
+msgstr ""
+
+#: ../magazon-wp/st-framework/lib/widgets/ads-125.php:270
+msgid "Ads 8 url:"
+msgstr ""
+
+#: ../magazon-wp/st-framework/lib/widgets/ads-125.php:282
+msgid "Randomize ads ?"
+msgstr ""
+
+#: ../magazon-wp/st-framework/lib/widgets/flickr.php:102
+msgid "Flickr ID:"
+msgstr ""
+
+#: ../magazon-wp/st-framework/lib/widgets/flickr.php:108
+msgid "Number of Photos:"
+msgstr ""
+
+#: ../magazon-wp/st-framework/lib/widgets/flickr.php:118
+msgid "Display (random or latest):"
+msgstr ""
+
+#: ../magazon-wp/st-framework/lib/widgets/flickr.php:127
+msgid "Type (user or group):"
+msgstr ""
+
+#: ../magazon-wp/st-framework/lib/widgets/popular-posts.php:10
+msgid "Display Popular Posts"
+msgstr ""
+
+#: ../magazon-wp/st-framework/lib/widgets/popular-posts.php:37
+#: ../magazon-wp/st-framework/lib/widgets/recent-posts.php:37
+#: ../magazon-wp/st-framework/lib/widgets/related-posts.php:37
+#: ../magazon-wp/st-framework/lib/widgets/tabs-content.php:27
+#: ../magazon-wp/st-framework/lib/widgets/tabs-content.php:47
+msgid "How many post to show ? "
+msgstr ""
+
+#: ../magazon-wp/st-framework/lib/widgets/popular-posts.php:117
+#: ../magazon-wp/st-framework/lib/widgets/recent-posts.php:112
+#: ../magazon-wp/st-framework/lib/widgets/related-posts.php:108
+#: ../magazon-wp/st-framework/templates/single.php:22
+#: ../magazon-wp/st-framework/templates/loop/loop-post.php:54
+msgid "0 Comment"
+msgstr ""
+
+#: ../magazon-wp/st-framework/lib/widgets/popular-posts.php:117
+#: ../magazon-wp/st-framework/lib/widgets/recent-posts.php:112
+#: ../magazon-wp/st-framework/lib/widgets/related-posts.php:108
+#: ../magazon-wp/st-framework/templates/single.php:22
+#: ../magazon-wp/st-framework/templates/loop/loop-post.php:54
+msgid "1 Comment"
+msgstr ""
+
+#: ../magazon-wp/st-framework/lib/widgets/popular-posts.php:117
+#: ../magazon-wp/st-framework/lib/widgets/recent-posts.php:112
+#: ../magazon-wp/st-framework/lib/widgets/related-posts.php:108
+#: ../magazon-wp/st-framework/templates/single.php:22
+#: ../magazon-wp/st-framework/templates/loop/loop-post.php:54
+msgid "% Comments"
+msgstr ""
+
+#: ../magazon-wp/st-framework/lib/widgets/recent-comments.php:10
+msgid "Display Recent Comment with avatar"
+msgstr ""
+
+#: ../magazon-wp/st-framework/lib/widgets/recent-comments.php:37
+#: ../magazon-wp/st-framework/lib/widgets/tabs-content.php:68
+msgid "How many comments to show ? "
+msgstr ""
+
+#: ../magazon-wp/st-framework/lib/widgets/recent-posts.php:10
+msgid "Display Recent Posts"
+msgstr ""
+
+#: ../magazon-wp/st-framework/lib/widgets/related-posts.php:10
+msgid "Display Related Posts"
+msgstr ""
+
+#: ../magazon-wp/st-framework/lib/widgets/socials-connect.php:52
+msgid "ST Socials Connect"
+msgstr ""
+
+#: ../magazon-wp/st-framework/lib/widgets/socials-connect.php:52
+msgid "Social Counter Widget"
+msgstr ""
+
+#: ../magazon-wp/st-framework/lib/widgets/socials-connect.php:86
+#, php-format
+msgid "Keep Update With %s"
+msgstr ""
+
+#: ../magazon-wp/st-framework/lib/widgets/socials-connect.php:97
+msgid "Your Email Address..."
+msgstr ""
+
+#: ../magazon-wp/st-framework/lib/widgets/socials-connect.php:107
+#: ../magazon-wp/st-framework/lib/widgets/socials-connect.php:113
+msgid "Subscribe"
+msgstr ""
+
+#: ../magazon-wp/st-framework/lib/widgets/socials-connect.php:113
+msgid "RSS"
+msgstr ""
+
+#: ../magazon-wp/st-framework/lib/widgets/socials-connect.php:115
+msgid "Follower"
+msgstr ""
+
+#: ../magazon-wp/st-framework/lib/widgets/socials-connect.php:118
+msgid "Like"
+msgstr ""
+
+#: ../magazon-wp/st-framework/lib/widgets/socials-connect.php:155
+msgid "Twitter ID:"
+msgstr ""
+
+#: ../magazon-wp/st-framework/lib/widgets/socials-connect.php:157
+#: ../magazon-wp/st-framework/lib/widgets/socials-connect.php:162
+#: ../magazon-wp/st-framework/lib/widgets/socials-connect.php:167
+#: ../magazon-wp/st-framework/lib/widgets/socials-connect.php:179
+msgid "Example: <strong>smooththemes</strong>"
+msgstr ""
+
+#: ../magazon-wp/st-framework/lib/widgets/socials-connect.php:160
+msgid "Facebook page URL:"
+msgstr ""
+
+#: ../magazon-wp/st-framework/lib/widgets/socials-connect.php:165
+msgid "Feedburner URLI:"
+msgstr ""
+
+#: ../magazon-wp/st-framework/lib/widgets/socials-connect.php:171
+msgid "RSS URL:"
+msgstr ""
+
+#: ../magazon-wp/st-framework/lib/widgets/socials-connect.php:177
+msgid "Text:"
+msgstr ""
+
+#: ../magazon-wp/st-framework/lib/widgets/tabs-content.php:10
+msgid "Display Popular Posts, Recent Posts, lastest comments,..."
+msgstr ""
+
+#: ../magazon-wp/st-framework/lib/widgets/tabs-content.php:16
+msgid "Popular posts Tab"
+msgstr ""
+
+#: ../magazon-wp/st-framework/lib/widgets/tabs-content.php:19
+#: ../magazon-wp/st-framework/lib/widgets/tabs-content.php:39
+#: ../magazon-wp/st-framework/lib/widgets/tabs-content.php:60
+msgid "Show this tab"
+msgstr ""
+
+#: ../magazon-wp/st-framework/lib/widgets/tabs-content.php:23
+#: ../magazon-wp/st-framework/lib/widgets/tabs-content.php:43
+#: ../magazon-wp/st-framework/lib/widgets/tabs-content.php:64
+msgid "Tab Title:"
+msgstr ""
+
+#: ../magazon-wp/st-framework/lib/widgets/tabs-content.php:36
+msgid "Recent posts Tab"
+msgstr ""
+
+#: ../magazon-wp/st-framework/lib/widgets/tabs-content.php:57
+msgid "Recent comments Tab"
+msgstr ""
+
+#: ../magazon-wp/st-framework/lib/widgets/tabs-content.php:131
+msgid "Drag tabs to sort"
+msgstr ""
+
+#: ../magazon-wp/st-framework/lib/widgets/tabs-content.php:158
+msgid "Popular"
+msgstr ""
+
+#: ../magazon-wp/st-framework/lib/widgets/tabs-content.php:161
+msgid "Recent"
+msgstr ""
+
+#: ../magazon-wp/st-framework/lib/widgets/tabs-content.php:164
+msgid "Comments"
+msgstr ""
+
+#: ../magazon-wp/st-framework/settings/admin-settings.php:14
+msgid "Boxed of Full-Width Layout"
+msgstr ""
+
+#: ../magazon-wp/st-framework/settings/admin-settings.php:17
+msgid "Full-Width"
+msgstr ""
+
+#: ../magazon-wp/st-framework/settings/admin-settings.php:18
+msgid "Boxed"
+msgstr ""
+
+#: ../magazon-wp/st-framework/settings/admin-settings.php:27
+msgid "Default Layout"
+msgstr ""
+
+#: ../magazon-wp/st-framework/settings/admin-settings.php:44
+msgid "Default sidebar left"
+msgstr ""
+
+#: ../magazon-wp/st-framework/settings/admin-settings.php:55
+msgid "Default sidebar right"
+msgstr ""
+
+#: ../magazon-wp/st-framework/settings/admin-settings.php:66
+msgid "Default sidebar Search page"
+msgstr ""
+
+#: ../magazon-wp/st-framework/settings/admin-settings.php:78
+msgid "Show Footer Widgets"
+msgstr ""
+
+#: ../magazon-wp/st-framework/settings/admin-settings.php:89
+msgid "Show Footer Navigation"
+msgstr ""
+
+#: ../magazon-wp/st-framework/settings/admin-settings.php:110
+msgid "Logo Padding Top"
+msgstr ""
+
+#: ../magazon-wp/st-framework/settings/admin-settings.php:112
+msgid "Set padding top of logo, default is 20"
+msgstr ""
+
+#: ../magazon-wp/st-framework/settings/admin-settings.php:118
+msgid "Logo Padding Bottom"
+msgstr ""
+
+#: ../magazon-wp/st-framework/settings/admin-settings.php:120
+msgid "Set padding bottom of logo, default is 20"
+msgstr ""
+
+#: ../magazon-wp/st-framework/settings/admin-settings.php:127
+msgid "Enable Favicon"
+msgstr ""
+
+#: ../magazon-wp/st-framework/settings/admin-settings.php:149
+msgid "Facebook URL"
+msgstr ""
+
+#: ../magazon-wp/st-framework/settings/admin-settings.php:195
+msgid "Enable Social Sharing on single post"
+msgstr ""
+
+#: ../magazon-wp/st-framework/settings/admin-settings.php:205
+msgid "Enable Author Description"
+msgstr ""
+
+#: ../magazon-wp/st-framework/settings/admin-settings.php:215
+msgid "Enable Recent and Related Post"
+msgstr ""
+
+#: ../magazon-wp/st-framework/settings/admin-settings.php:249
+msgid "Select a color scheme for your website."
+msgstr ""
+
+#: ../magazon-wp/st-framework/settings/admin-settings.php:254
+msgid "Enable Custom Skin"
+msgstr ""
+
+#: ../magazon-wp/st-framework/settings/admin-settings.php:264
+msgid "Custom Global Skin"
+msgstr ""
+
+#: ../magazon-wp/st-framework/settings/admin-settings.php:372
+msgid "fade"
+msgstr ""
+
+#: ../magazon-wp/st-framework/settings/admin-settings.php:372
+msgid "slide"
+msgstr ""
+
+#: ../magazon-wp/st-framework/settings/admin-settings.php:378
+msgid "Should the animation loop?"
+msgstr ""
+
+#: ../magazon-wp/st-framework/settings/admin-settings.php:385
+msgid "Animate slider automatically"
+msgstr ""
+
+#: ../magazon-wp/st-framework/settings/admin-settings.php:394
+msgid "Set the speed of the slideshow cycling, in milliseconds, default: 7000"
+msgstr ""
+
+#: ../magazon-wp/st-framework/settings/admin-settings.php:401
+msgid "Set the speed of animations, in milliseconds, default: 6000"
+msgstr ""
+
+#: ../magazon-wp/st-framework/settings/admin-settings.php:406
+msgid "Pause On Action"
+msgstr ""
+
+#: ../magazon-wp/st-framework/settings/admin-settings.php:420
+msgid "Create navigation for paging control of each clide"
+msgstr ""
+
+#: ../magazon-wp/st-framework/settings/admin-settings.php:427
+msgid "Randomize slide order"
+msgstr ""
+
+#: ../magazon-wp/st-framework/settings/admin-settings.php:439
+#: ../magazon-wp/st-framework/settings/admin-settings.php:580
+msgid "Body Font"
+msgstr ""
+
+#: ../magazon-wp/st-framework/settings/admin-settings.php:472
+#: ../magazon-wp/st-framework/settings/admin-settings.php:581
+msgid "Heading Font"
+msgstr ""
+
+#: ../magazon-wp/st-framework/settings/admin-settings.php:499
+#: ../magazon-wp/st-framework/settings/admin-settings.php:582
+msgid "Archive Heading Font"
+msgstr ""
+
+#: ../magazon-wp/st-framework/settings/admin-settings.php:518
+msgid "Set font style for archive heading like category, tags, search..."
+msgstr ""
+
+#: ../magazon-wp/st-framework/settings/admin-settings.php:554
+msgid "Header tracking code"
+msgstr ""
+
+#: ../magazon-wp/st-framework/settings/admin-settings.php:560
+msgid "Footer tracking code"
+msgstr ""
+
+#: ../magazon-wp/st-framework/settings/admin-settings.php:572
+msgid "General Setings"
+msgstr ""
+
+#: ../magazon-wp/st-framework/settings/admin-settings.php:573
+msgid "Page Settings"
+msgstr ""
+
+#: ../magazon-wp/st-framework/settings/admin-settings.php:575
+msgid "Favicon"
+msgstr ""
+
+#: ../magazon-wp/st-framework/settings/admin-settings.php:576
+msgid "Custom Sidebars"
+msgstr ""
+
+#: ../magazon-wp/st-framework/settings/admin-settings.php:579
+msgid "Font Style"
+msgstr ""
+
+#: ../magazon-wp/st-framework/settings/admin-settings.php:585
+msgid "Elements Color"
+msgstr ""
+
+#: ../magazon-wp/st-framework/settings/admin-settings.php:586
+msgid "Global Skin"
+msgstr ""
+
+#: ../magazon-wp/st-framework/settings/admin-settings.php:587
+msgid "Body Background"
+msgstr ""
+
+#: ../magazon-wp/st-framework/settings/admin-settings.php:595
+msgid "Overall Elements"
+msgstr ""
+
+#: ../magazon-wp/st-framework/settings/admin-settings.php:596
+msgid "Single Post Elements"
+msgstr ""
+
+#: ../magazon-wp/st-framework/settings/admin-settings.php:597
+msgid "Social"
+msgstr ""
+
+#: ../magazon-wp/st-framework/settings/admin-settings.php:598
+msgid "Footer Copyright"
+msgstr ""
+
+#: ../magazon-wp/st-framework/settings/admin-settings.php:604
+msgid "FlexSlider"
+msgstr ""
+
+#: ../magazon-wp/st-framework/settings/admin-settings.php:607
+#: ../magazon-wp/st-framework/settings/admin-settings.php:608
+msgid "Ads Management"
+msgstr ""
+
+#: ../magazon-wp/st-framework/settings/admin-settings.php:611
+msgid "Tracking code"
+msgstr ""
+
+#: ../magazon-wp/st-framework/settings/nav-menus.php:3
+msgid "Primary Navigation"
+msgstr ""
+
+#: ../magazon-wp/st-framework/settings/nav-menus.php:6
+msgid "Top Menu"
+msgstr ""
+
+#: ../magazon-wp/st-framework/settings/nav-menus.php:11
+msgid "Footer Menu"
+msgstr ""
+
+#: ../magazon-wp/st-framework/templates/404.php:5
+msgid "404"
+msgstr ""
+
+#: ../magazon-wp/st-framework/templates/404.php:9
+msgid "Opps, Page not found."
+msgstr ""
+
+#: ../magazon-wp/st-framework/templates/404.php:11
+msgid ""
+"  We're sorry, but we can't find the page you were looking for. It's "
+"probably some thing we've done wrong but now we know about it we'll try to "
+"fix it. In the meantime, try one of this options:"
+msgstr ""
+
+#: ../magazon-wp/st-framework/templates/404.php:14
+msgid "Go back to previous page"
+msgstr ""
+
+#: ../magazon-wp/st-framework/templates/404.php:15
+msgid "Go to homepage"
+msgstr ""
+
+#: ../magazon-wp/st-framework/templates/archive.php:4
+#, php-format
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: ../magazon-wp/st-framework/templates/archive.php:6
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: ../magazon-wp/st-framework/templates/archive.php:6
+msgid "F Y"
+msgstr ""
+
+#: ../magazon-wp/st-framework/templates/archive.php:8
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: ../magazon-wp/st-framework/templates/archive.php:8
+msgid "Y"
+msgstr ""
+
+#: ../magazon-wp/st-framework/templates/archive.php:10
+msgid "Blog Archives"
+msgstr ""
+
+#: ../magazon-wp/st-framework/templates/author.php:5
+#: ../magazon-wp/st-framework/templates/single.php:139
+msgid "Author Description"
+msgstr ""
+
+#: ../magazon-wp/st-framework/templates/author.php:39
+msgid "Author Posts"
+msgstr ""
+
+#: ../magazon-wp/st-framework/templates/search.php:2
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: ../magazon-wp/st-framework/templates/single.php:12
+msgid "By"
+msgstr ""
+
+#: ../magazon-wp/st-framework/templates/single.php:20
+msgid "on"
+msgstr ""
+
+#: ../magazon-wp/st-framework/templates/single.php:75
+msgid "Share this story:"
+msgstr ""
+
+#: ../magazon-wp/st-framework/templates/single.php:93
+msgid "Tags:"
+msgstr ""
+
+#: ../magazon-wp/st-framework/templates/template-functions.php:612
+#, php-format
+msgid "%1$s"
+msgstr ""
+
+#: ../magazon-wp/st-framework/templates/template-functions.php:613
+#, php-format
+msgid "<b class=\"author_name\">%s</b>"
+msgstr ""
+
+#: ../magazon-wp/st-framework/templates/template-functions.php:614
+msgid "(Edit)"
+msgstr ""
+
+#: ../magazon-wp/st-framework/templates/template-functions.php:626
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../magazon-wp/st-framework/templates/loop/loop-post.php:61
+msgid "Read More"
+msgstr ""

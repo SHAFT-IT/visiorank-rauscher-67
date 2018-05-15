@@ -1,0 +1,22 @@
+/*
+	Theme Name: Instagram Theatre
+	Author: Chris Rivers
+	Version: 1.5
+	Description:  A Simple Instagram Plugin
+
+	Wordpress Plugin
+	--------------------------
+	Build Version : 	1.5.0
+	Author : 			xxcriversxx@gmail.com
+	Website :			http://chrisriversdesign.com
+	
+	00 : MEDIA QUERIES - Common breakpoints	
+	
+	A note regarding - MEDIA QUERIES
+	--------------------------------
+	Skip to the bottom of the stylesheet, all media queries and breakpoints are in this stylesheet. 
+	This is now based on a mobile first approach and there's more flexibility and convenience in using 
+	inline declarations because there's only one stylesheet to maintain.
+*/
+
+@import url("css/site.css");

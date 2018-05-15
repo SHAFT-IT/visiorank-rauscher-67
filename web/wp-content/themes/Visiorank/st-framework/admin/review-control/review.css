@@ -1,0 +1,91 @@
+.st_page_review_tb{
+    width: 100%;
+}
+
+.st_page_review_tb th, 
+.st_page_review_tb td{
+    vertical-align: top;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.list_item div.ritem{
+    margin: 7px 0px;
+    background: #F8F8F8;
+    border: 1px solid #F8F8F8;
+}
+.list_item div.ritem .l{
+    float: left;
+    margin-right: 7px;
+}
+.list_item div.ritem .r{
+    float: left;
+   position: relative;
+   padding-right: 25px;
+  
+}
+
+.list_item div.ritem .r label{
+    float: left;
+}
+.list_item div.ritem .r .score{
+    text-align: right;
+}
+
+
+.list_item div.ritem  .sider {
+      float: left;
+    margin-left: 10px;
+    margin-top: 7px;
+    min-width: 200px;
+}
+
+
+
+.list_item  .remove{
+    width: 20px;
+    height: 20px;
+    background: url(images/trash.png) center center no-repeat;
+    border: 0px none;
+    cursor: pointer;
+    position: absolute;
+    top:3px;
+    right:0px;
+}
+
+
+.list_item div.clear{
+    margin:0px!important;
+    padding: 0px!important;
+}
+
+.list_item .handle{
+    padding: 8px;
+    background: url(images/move.png) center center no-repeat;
+    cursor: move;
+    margin-right: 7px;
+}
+
+.list_item .ritem.ui-sortable-placeholder{
+    border: 1px dashed #fff !important;
+    display: block;
+    background: #fff;
+}
+
+/* for jqQuery ui slider*/
+.ritem .ui-slider-handle{
+    border: none;
+    background: url(images/slider-handler.png) center center no-repeat;
+}
+
+.ritem  .ui-slider-horizontal{
+    height: 8px;
+    border: 1px solid #bababa;
+    background: #d7d7d7;
+    border-radius: 5px;
+}
+.ritem .ui-slider-range{
+    background: #7cb6e1;
+    border: 1px solid #5bace9;
+     border-radius: 5px;
+     top: -1px;
+}

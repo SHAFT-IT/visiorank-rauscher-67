@@ -1,0 +1,35 @@
+html{ margin:0px !important;}
+
+.post-slider{ position: relative; z-index: 18;}
+.inside-post-slider{
+    z-index: 19;
+}
+.flex-viewport{ z-index: 21;}
+.slides{
+    position: relative;
+    z-index: 22;
+}
+.slides li{
+    position: relative;
+    z-index: 23;
+}
+.slides li img{
+     z-index: 24;
+}
+.flex-caption{ bottom: 10px;}
+
+.flex-direction-nav{  z-index: 31;}
+.inside-post-slider .flex-direction-nav li{ z-index: 33;}
+.inside-post-slider .flex-direction-nav .flex-prev,
+.inside-post-slider .flex-direction-nav .flex-next{
+    filter:alpha(opacity=90);
+    z-index: 50;
+   
+}
+.inside-post-slider .flex-direction-nav .flex-next {
+     background: url("assets/images/button-next.png") no-repeat scroll center center;
+}
+.inside-post-slider .flex-direction-nav .flex-prev{
+     background: url("assets/images/button-prev.png") no-repeat scroll center center;
+}
+

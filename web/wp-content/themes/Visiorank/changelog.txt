@@ -1,0 +1,229 @@
+Magazon V2.6
+ - Fixed issue can not save category custom options.
+    Changed file: /st-framework/admin/admin-tax.php
+    
+ - Fixed issue left sidebar below content in mobile mod
+    Changed file: st-framework/templates/layout/layout-left-sidebar.php
+    Changed file: style.css
+
+ - Update admin options use AJAX to save.
+    Changed file: st-framework/admin/admin-functions.php
+    Changed file: st-framework/admin/admin-int.php
+    Changed file: st-framework/admin/admin-interface.php
+    Changed file: st-framework/admin/css/admin-style.css
+    Changed file: st-framework/st-load.php
+
+ - Add Support child theme templates
+    Changed file:st-framework/settings/shortcode.php
+    Changed file: st-framework/st-load.php
+    Changed file:st-framework/templates/archive.php
+    Changed file:st-framework/templates/author.php
+    Changed file:st-framework/templates/list-post.php
+    Changed file:st-framework/templates/template-functions.php
+
+ - Fixed category link issue
+    Changed file: st-framework/settings/shortcode.php
+ - Fixed shortcodes issue in WP editor with WordPress 3.9
+    Changed file: st-framework/admin/editor/editor.php
+    Changed file: st-framework/admin/editor/edittor_plugin.js
+    Changed file: st-framework/admin/editor/tinymce.js
+    Changed file: st-framework/admin/page-builder/page-builder.php
+    Changed file: st-framework/lib/lib-functions.php
+
+ - Fixed issue categories for slider
+    Changed File: st-framework/admin/admin-scripts.php
+    Changed File: st-framework/admin/js/admin-js.js
+    Changed File: st-framework/lib/lib-functions.php
+    Changed File: st-framework/settings/js-and-css.php
+
+
+Magazon V2.5
+
+ - Checked for works with WordPress 3.8
+ - New admin option interface
+    Changed file: /st-framework/admin/css/admin-style.css
+    Changed file: /st-framework/admin/admin-interface.php
+    Changed file: /st-framework/admin/images/logo.jpg
+
+-  New media uploader in theme options.
+    Changed file: /st-framework/admin/admin-scripts.php
+    Changed file: /st-framework/admin/js/admin-js.js
+
+- Fix Carrousel slider order by Date
+    Changed file: /st-framework/admin/page-builder/page-builder-functions.php
+    Changed file: /st-framework/admin/page-builder/page-builder-generate-code.php
+    Changed file: /st-framework/lib/lib-functions.php
+    Changed file: /st-framework/settings/shortcode.php
+
+
+Magazon V2.4
+- Fix choose background for body bg,if don't choose bg-color, bg-image not show
+    Changed file: st-framework/templates/template-functions.php
+- Fix Twitter followers count
+    Changed file: assets/js/custom.js
+    Changed file: st-framework/lib/widgte/socials-connect.php
+-Fixed Social icons:  there is no option for rss, and when hover rss icon , title is: Pinterest
+    Changed file: header.php
+    Changed file: st-framework/settings/admin-settings.php
+- Add Option to show comment form on page
+    Changed file: st-framework/settings/admin-settings.php
+    Changed file: st-framework/templates/page.php
+- Add Editor Style
+    Added file: editor-style.css
+    Added file: editor-style-rtl.css
+    Changed file: st-framework/st-load.php
+
+
+Magazon V2.3
+- Fixed admin select font
+    Changed file: st-framework/ admin/admin-functions.php
+    Changed file: st-framework/admin/js/admin-js
+- ADD mailchimp subcribe form for ST Socials connect
+    Changed file: st-framework/lib/widgte/socials-connect.php
+    added file: st-framework/admin/images/mailchimp-form.png
+- ADD option and search form in the navigation
+    changed file: header.php
+    added file: assets/images/search.png
+    Changed file: st-framework/settings/admin-settings.php
+-  ADD schema Microdata for review post
+    changed file: st-framework/admin/review-control/review.php
+    changed file: st-framework/templates/template-functions.php
+- Other Changed
+    assest/css/responsive.css
+    index.php
+    st-framework/admin/page-builder/page-builder.php
+    st-framework/templates/st-wc-functions.php
+  
+
+
+Magazon V2.2
+- Fixed bug upload image for categories
+    Changed file: st-framework/ admin/admin-scripts.php
+    Changed file: st-framework/admin/js/admin-js.js
+- Fixed style for print devices
+    Changed file:  st-framework/settings/js-and-css.php
+    
+- Fixed and change page builder data encode
+    Changed file: 
+      index.php
+      st-framwork/templates/single.php
+                           /page.php
+                           /template-functions.php
+                            
+      st-framwork/lib/lib-functions.php
+      st-framwork/admin/page-builder/page-builder.php
+-Fixed the slider captions
+   Changed file: st-framwork/lib/lib-functions.php     
+
+-NEW: User can select multiple categories in blog post item
+   Changed file: st-framwork/admin//pag-builder/page-builder-functions.php   
+   Changed file: st-framwork/settings/shortcode.php  
+Changed sidebars order
+   Changed file: st-framework/settings/sidebars.php
+   
+Update google font: add more fonts and load all font subsets
+   Changed file:  st-framework/settings/google-fonts.php
+   Changed file:  st-framework/settings/admin-settings.php
+   Changed file:  st-framework/admin/admin-function.php
+   Changed file:  st-framework/admin/js/admin-js.js
+   
+Add default options
+   Changed file:  st-framework/lib/st-active-theme.php
+   Changed file:  st-framework/admin/aadmin-interface.php
+ 
+Move post/page pagination to single and page  
+  Changed file: st-framwork/templates/single.php
+  Changed file: st-framwork/templates/page.php
+
+Other changed  
+    file : functions.php
+    file: st-framwork/admin/admin-int.php
+    file: st-framwork/admin/page-builder/page-builder.php
+    file: st-framwork/templates/index.php
+
+Magazon V2.1
+- NEW FEATURE CSS editor
+    Changed file st-framework/st-load.php
+    Add folder:  st-framework/css/
+- Fixed missing text in admin., translate for frontend only.
+    Changed file: st-framework/translate/translate.php
+- Add option link open in new tab for shortcode button ( [button type="medium" link="#" target="_blank" ] Button[/button] ).
+    Changed file: st-framework/settings/shortcode.php
+- Fixed Accordion auto close when click to content
+    Changed file: assets/js/custom.js
+- Change Style for admin Panel
+      Changed folder amin/css/
+      Changed file admin/js/admin-js.js
+      changed file admin/admin-interface.php
+
+
+Magazon V2.0
+- NEW FEATURE : Included stTranslator, the best translate tool you never seen.
+- NEW FEATURE : Included Back To Top button
+- Magazon now compatibility with WordPress 3.6
+- Top social now open on a new window
+- Add 'Widget' to page builder
+- Add body font size option
+
+
+Magazon V1.7
+    - NEW FEATURE : Top Post Carousel is now continuos rotation.
+    - NEW FEATURE : Add imageLoaded(js file) that can fixed your Slider and Carousels
+    - Fixed some typo issue.
+    Changed files :
+        - Add jquery.imagesloaded.min.js in assets/js/ folder
+        - st-framework/templates/template-functions.php
+        - st-framework/settings/js-and-css.php
+Magazon V1.6
+    - NEW FEATURE : Add info boxed shortcodes
+    - NEW FEATURE : Add smoothHeight setting for Flexslider
+    - Fixed Slider and Carousel issue on Safari & Chrome
+Magazon V1.5
+    - ADD : Categories, date, comment, author metadata setting for singple post
+    - Fix 404.php issue
+    - Replace social counter by JS (The old used PHP)
+    - Move JS to footer
+Magazon V1.4
+    - NEW FEATURE : Support RTL language
+    - Fixed the_date issue, now you can select Date Format in WP general setting
+    - Added pagination for page builder on home page
+    Changed files : 
+        -st-framework/settings/shortcode.php
+            changed function :  st_blog_post_func
+        -st-framework/lib/lib-function.php
+            add new function st_get_paging_in_home
+        -st-framework/admin/page-builder/page-builder-functions.php
+            changed function : stpb_blog
+
+Magazon V1.3.1
+    -Fixed avatar
+    -Fixed thumbnail for post slider
+    -Added  setting to disable Featured Image.
+    Changed files : 
+        -st-framework/settings/admin-settings.php
+        -st-framework/lib/lib-functions.php
+        -st-framework/templates/template-functions.php
+        -st-framework/templates/single.php
+        
+Magazon V1.3 – March 08, 2013
+    - WPML ready
+    - Add advanced theme options for Individual language
+    - Add feature slider settings
+    - Fixed author social on singple page
+Magazon V1.2.1 – March 05, 2013
+    - Add auto-height to the feature slider.
+    - Fixed small bug in Custom Sidebars.
+Magazon V1.2 – March 03, 2013
+    - Add footer & header tracking code to theme options
+    - Add option to display pagination in "Blog Posts" builder item
+    - Add social sharing on single page (can disable in theme options)
+    - Fixed double "Leave a Reply" if no comment.
+    - Fixed category issue in "Blog Posts" builder item
+
+Magazon V1.1 – March 01, 2013
+    - Update .po and .mo files
+    - Fixed some css issues
+    - Clean up header.php
+
+V1.0 – February 23, 2013
+    - Initial Release

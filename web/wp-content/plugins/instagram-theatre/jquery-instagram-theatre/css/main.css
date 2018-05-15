@@ -1,0 +1,371 @@
+/*-----------------------------------------------------------------------
+ * Version - 1.0.0
+ * File    - main.css
+ * Author  -  Chris Rivers
+ * Usage - 
+ * Description - 
+ *     Main Css
+ *-----------------------------------------------------------------------*/
+
+/* Rules 
+----------------*/
+body {
+	background: #000 url("images/texture-dark.png") repeat;
+	margin-bottom:50px;
+}
+
+body.green { background: #000 url("images/texture-green.png") repeat; }
+body.dark-green { background: #000 url("images/texture-dark-green.png") repeat; }
+body.blue { background: #000 url("images/texture-blue.png") repeat; }
+body.brown { background: #000 url("images/texture-brown.png") repeat; }
+
+a:hover { text-decoration:none; }
+
+/* Main 
+-----------------*/
+div.sidebar-nav {	
+    background: url("images/bg-help.png") repeat-y scroll -9px 0 transparent;
+    height: 100%;
+    padding: 24px;
+    position: fixed;
+	left:0;
+    top: 0;
+    width: 240px;
+    z-index: 1000;
+}
+
+div.sidebar-nav h1 {
+	background:url("images/logo-full.png") no-repeat;
+	color: #FFFFFF;
+    font-family: Verdana,Arial,sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    height: 190px;
+    margin: 40px auto 0;
+    text-indent: -9999px;
+    width: 155px;
+}
+
+div.sidebar-nav .nav {
+	margin: 20px 0 0;
+	position:relative;
+}
+
+div.sidebar-nav .nav ul {
+	list-style:none;
+	margin:0;
+}
+
+div.sidebar-nav .nav ul li {
+	text-align:center;
+}
+
+div.sidebar-nav .nav ul li a {
+	color:#ffffff;
+	font-family: 'CommunistSans';
+	font-size: 13px;
+	line-height: 29px;
+	text-transform: uppercase;
+}
+
+div.sidebar-nav .nav .nav-pointer {
+	display:none;
+    position: absolute;
+	top:0;
+}
+
+div.sidebar-nav .nav .nav-pointer div {
+	background:url("images/title-decoration.png") no-repeat scroll 0 -16px transparent;
+	height: 4px;
+    position: absolute;
+    width: 4px;
+}
+
+div.sidebar-nav .social-media {
+	bottom:100px;
+	left:80px;
+	position:absolute;
+}
+
+div.sidebar-nav .social-media img {
+	cursor:pointer;
+	margin-right:11px;
+}
+
+.top-bar {
+	background:#000;
+	height:40px;
+	position:absolute;
+	top:0;
+	width: 100%;
+}
+
+.bottom-bar {
+	background:#000;
+	height:40px;
+	position:fixed;
+	bottom:0;
+	width: 100%;
+	z-index:100;
+}
+
+.bottom-bar .close-sidebar {
+	background:url("images/close-sidebar.png") no-repeat;
+	cursor: pointer;
+    display: inline-block;
+    float: right;
+    height: 16px;
+    margin-right: 16px;
+    margin-top: 11px;
+    text-indent: -9999px;
+    width: 108px;
+}
+
+.bottom-bar .close-sidebar.closed { background:url("images/open-sidebar.png") no-repeat; }
+
+.caption-container {
+	background:url("images/theather-design_06.png") repeat;
+	bottom: 40px;
+    padding: 15px 23px;
+	overflow:hidden;
+    position: absolute;
+    right: 0;
+    width: 500px;
+}
+.caption-container.closed-cap {
+	background:#000 url("images/open-caption.png") no-repeat 9px 0;
+	cursor:pointer;
+}
+
+.caption-container h3 {
+	color:#ffffff;
+	font-weight:bold;
+	font-size:18px;
+}
+
+.caption-container em {
+	color:#d7d7d7;
+	font-style:normal;
+	font-size:11px;
+	text-transform:uppercase;
+}
+
+.caption-container p {
+	color:#ffffff;
+	font-size:12px;
+}
+
+a.caption-close {
+	background:url("images/close-caption.png") no-repeat;
+	cursor:pointer;
+	display: inline-block;
+    height: 29px;
+    position: absolute;
+    right: 9px;
+    top: 8px;
+    width: 28px;
+}
+
+/* Main Content
+----------------------*/
+.main-content {
+	min-height:200px;
+	padding-left:288px;
+}
+
+.main-content .photo-nav { margin-top:322px; position:relative; }
+.main-content .photo-nav a {
+	cursor:pointer;
+	display:inline-block;
+	height:48px; 
+	position:absolute;
+	width:48px; 
+}
+
+.main-content .photo-nav a.prev {
+	background:url("images/prev.png") no-repeat;
+}
+
+.main-content .photo-nav a.next {
+	background:url("images/next.png") no-repeat;
+	right:0;
+}
+
+/* Plugin CSS 
+-------------------------*/
+.instagram-photo {
+	display: inline-block;
+    height: 196px;
+	margin:10px;
+    width: 195px;
+	position:relative;
+}
+
+.instagram-photo .instagram-hover-cover {
+	background:#111;
+	bottom:0;
+	overflow:hidden;
+	position:absolute;
+	z-index:1000;
+}
+
+.instagram-photo .instagram-hover-cover h3 { color:#fff; line-height: 20px; margin:15px 17px 0 17px; text-transform:capitalize; }
+.instagram-photo .instagram-hover-cover em { display:inline-block; font-size:11px; font-style:normal; height: 14px; margin: 0 17px; text-transform:uppercase; }
+.instagram-photo .instagram-hover-cover p { color:#D7D7D7; line-height:17px; margin: -1px 17px 0 17px; }
+
+.instagram-theatre {
+    margin-left: 370px;
+	padding-bottom: 62px;
+	position: absolute;
+	top: 61px;
+    width: 863px;
+    z-index: 99;
+}
+
+#seachInstagramLoadMoreContainer {
+	text-align:center;
+}
+
+.instagram-theatre.list .instagram-photo {
+	position: relative;
+	height:auto;
+	width: 620px;
+}
+
+/* User List */
+.instagram-user-all {
+    background: none repeat scroll 0 0 transparent;
+	display: inline-block;
+	float: left;
+	height: 228px;
+	padding: 19px 17px;
+}
+
+.instagram-user-all img {
+	margin-right:15px;
+}
+
+.instagram-user-all .instagram-username {
+	color: #FFFFFF;
+	display: block;
+	font-size: 15px;
+	font-weight: bold;
+	margin-bottom: 3px;
+	margin-top: 5px;
+}
+.instagram-user-all .instagram-username:hover { color:#2E6F8F; cursor:pointer; }
+
+.instagram-user-all .instagram-fullname {
+	color:#666;
+}
+
+/* Customization bar */
+.customization-bar {
+	background-color: #0e0e0e;
+	border-radius: 4px 4px 4px 4px;
+	height: 440px;
+	padding: 13px 17px;
+	position: absolute;
+	right: 0;
+	top: 19%;
+	width: 154px;
+	z-index: 200;
+}
+
+.customization-bar.small { height: 220px; top: 55px; }
+.customization-bar h2 {
+	color: #FFFFFF;
+	font-size: 18px;
+	line-height: 16px;
+	margin-bottom: 10px;
+	margin-top: 4px;
+}
+
+.customization-bar a { margin-bottom:3px; }
+.customization-bar a.controls { color:#fff; display:block; }
+.customization-bar a.enterFullscreen { cursor:pointer; }
+.customization-bar .colors { cursor:pointer; margin-bottom: 11px; }
+
+.customization-bar .colors a {
+	border: 3px solid rgba(255, 255, 255, 0.3);
+	display: inline-block;
+	height: 16px;
+	margin: 2px;
+	width: 16px;
+}
+
+.customization-bar p {
+  color: #4C4C4C;
+  line-height: 15px;
+  margin-bottom: 11px;
+}
+
+.customization-bar form {
+	margin: 0 0 11px;
+}
+
+.customization-bar form label {
+	color:#fff;
+}
+
+.customization-bar form input.text {
+	width:105px;
+}
+
+.customization-bar form select {
+	font-size:12px;
+	width:105px;
+}
+
+.customization-bar form input.submit {
+	width:29px;
+}
+
+/* Responsive Mobile
+-----------------------------*/
+/* Tablets */
+@media screen and (max-width: 1249px) {
+ 	.instagram-theatre {
+		width: 433px !important;
+	}
+	
+	.instagram-theatre.list .instagram-photo {
+		width:400px;
+	}
+}
+
+/* iPad */
+@media screen and (max-width: 833px) {
+	.sidebar-nav, .photo-nav, .customization-bar {
+		display: none;
+	}
+	
+	.caption-container {
+		margin: 0 auto;
+		right: auto;
+		width:auto;
+	}
+	
+	.instagram-theatre {
+		margin: -120px auto 0;
+		position: static;
+		width: 433px !important;
+	}
+	
+	.instagram-theatre.list .instagram-photo {
+		width:400px;
+	}
+}
+
+/* iPhone */
+@media screen and (max-width: 480px) {
+	.instagram-theatre {
+		margin-left: 12px;
+		width: 213px !important;
+	}
+	
+	.instagram-theatre.list .instagram-photo {
+		width:200px;
+	}
+}
+

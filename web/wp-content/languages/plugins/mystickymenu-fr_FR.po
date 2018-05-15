@@ -1,0 +1,136 @@
+# Translation of Plugins - myStickymenu - Stable (latest release) in French (France)
+# This file is distributed under the same license as the Plugins - myStickymenu - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-03-11 10:39:05+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: fr\n"
+"Project-Id-Version: Plugins - myStickymenu - Stable (latest release)\n"
+
+#. Author of the plugin/theme
+msgid "m.r.d.a"
+msgstr "m.r.d.a"
+
+#. Description of the plugin/theme
+msgid "Simple sticky (fixed on top) menu implementation for default Twentythirteen navigation menu. For other themes, after install go to Settings / myStickymenu and change Sticky Class to .your_navbar_class or #your_navbar_id."
+msgstr "Implémentation simple de menu collé (fixé en haut) pour le menu de navigation par défaut de Twentythirteen. Pour les autres thèmes, après l'installation allez dans Réglages / myStickymenu et changez la Clase Sticky pour .your_navbar_class ou #your_navbar_id."
+
+#. Plugin URI of the plugin/theme
+msgid "http://wordpress.transformnews.com/plugins/mystickymenu-simple-sticky-fixed-on-top-menu-implementation-for-twentythirteen-menu-269"
+msgstr "http://wordpress.transformnews.com/plugins/mystickymenu-simple-sticky-fixed-on-top-menu-implementation-for-twentythirteen-menu-269"
+
+#. Plugin Name of the plugin/theme
+msgid "myStickymenu"
+msgstr "myStickymenu"
+
+#: mystickymenu.php:364
+msgid "Use this option if you plan to include CSS Style manually"
+msgstr "Utilisez cette option si vous voulez inclure un style CSS manuellement"
+
+#: mystickymenu.php:353
+msgid "More examples <a href='http://wordpress.transformnews.com/tutorials/mystickymenu-extended-style-functionality-using-myfixed-sticky-class-403'>here</a>."
+msgstr "Autres exemples <a href='http://wordpress.transformnews.com/tutorials/mystickymenu-extended-style-functionality-using-myfixed-sticky-class-403'>ici</a>."
+
+#: mystickymenu.php:351
+msgid "If you want to change sticky hover color first add default style and than: "
+msgstr "Si vous voulez modifier la couleur de survol de sticky ajoutez d'abord un style par défaut puis :"
+
+#: mystickymenu.php:349
+msgid "Default style: "
+msgstr "Style par défaut&nbsp;:"
+
+#: mystickymenu.php:342
+msgid "Add/Edit .myfixed css class to change sticky menu style. Leave it blank for default style."
+msgstr "Ajoutez / modifiez la classe css .myfixed.css pour changer le style du menu fixé. Laissez vide pour le style par défaut."
+
+#: mystickymenu.php:333
+msgid "Checked is slide, unchecked is fade."
+msgstr "Cochez si glissement, décochez si estompement."
+
+#: mystickymenu.php:308 mystickymenu.php:322
+msgid "px."
+msgstr "pixels"
+
+#: mystickymenu.php:303 mystickymenu.php:317
+msgid "after"
+msgstr "après"
+
+#: mystickymenu.php:294
+msgid "px width, 0  to disable."
+msgstr "pixels de large. 0 pour désactiver."
+
+#: mystickymenu.php:289
+msgid "less than"
+msgstr "moins de"
+
+#: mystickymenu.php:280
+msgid "in seconds."
+msgstr "en secondes."
+
+#: mystickymenu.php:270
+msgid "numbers 1-100."
+msgstr "nombres 1-100"
+
+#: mystickymenu.php:244
+msgid "menu or header div class or id."
+msgstr "classe div ou id de menu ou d'en-tête"
+
+#: mystickymenu.php:235
+msgid "Add nice modern sticky menu or header to any theme. Defaults works for Twenty Thirteen theme. <br />For other themes change 'Sticky Class' to div class desired to be sticky (div id can be used too)."
+msgstr "Ajoute un menu moderne ou un en-tête fixe pour tout thème. Fonctionne par défaut avec le thème Twenty Thirteen. <br />Pour les autres thèmes, changez 'Sticky Class' par la classe div voulue pour être fixée (id div utilisable également)."
+
+#: mystickymenu.php:155
+msgid "Disable CSS style"
+msgstr "Désactiver le style CSS"
+
+#: mystickymenu.php:148
+msgid ".myfixed css class"
+msgstr "classe css .myfixed"
+
+#: mystickymenu.php:141
+msgid "Fade or slide effect"
+msgstr "Effet de fondu ou de glissement"
+
+#: mystickymenu.php:134
+msgid "Make visible on Scroll at homepage"
+msgstr "Rendre visible au défilement sur l'accueil"
+
+#: mystickymenu.php:127
+msgid "Make visible on Scroll"
+msgstr "Rendre visible au défilement"
+
+#: mystickymenu.php:120
+msgid "Disable at Small Screen Sizes"
+msgstr "Désactiver sur les petites tailles d'écran"
+
+#: mystickymenu.php:113
+msgid "Sticky Transition Time"
+msgstr "Durée de transition de Sticky"
+
+#: mystickymenu.php:106
+msgid "Sticky Opacity"
+msgstr "Opacité de Sticky"
+
+#: mystickymenu.php:99
+msgid "Sticky Background Color"
+msgstr "Couleur de fond de Sticky"
+
+#: mystickymenu.php:92
+msgid "Sticky z-index"
+msgstr "z-index de Sticky"
+
+#: mystickymenu.php:85
+msgid "Sticky Class"
+msgstr "Classe Sticky"
+
+#: mystickymenu.php:79
+msgid "myStickymenu Options"
+msgstr "Options de myStickymenu"
+
+#: mystickymenu.php:54
+msgid "myStickymenu Settings"
+msgstr "Réglages de myStickymenu"

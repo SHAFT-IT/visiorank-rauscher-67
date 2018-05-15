@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+	    <title>Instagram Theatre - Jquery Plugin</title>
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <meta name="description" content="">
+	    <meta name="author" content="">
+	
+		<link rel="Shortcut Icon" type="image/x-icon" href="../fancybox/favicon-1.ico" />
+	
+	    <link href="../css/bootstrap/css/bootstrap.css" rel="stylesheet">
+		<link href="../css/bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+		<link href="../css/Communist-fontfacekit/stylesheet.css" rel="stylesheet">
+		<link href="../jquery.fancybox-1.3.4.css" rel="stylesheet">
+	    <link href="../css/main.css" rel="stylesheet">
+	
+		<script type="text/javascript" src="../jquery-1.7.1.min.js"></script>
+		<script type="text/javascript" src="../jquery.fancybox-1.3.4.pack.js"></script>
+		<script type="text/javascript" src="../dateFormat.js"></script>
+		<script type="text/javascript" src="../srobbin-jquery-backstretch/jquery.backstretch.min.js"></script>
+		<script type="text/javascript" src="../easing.js"></script>
+		<script type="text/javascript" src="../instagramTheatre.js"></script>
+		<script type="text/javascript" src="js/demo.js"></script>
+	
+		<script type="text/javascript">
+			$(document).ready(function(){
+				// Calling the Plugin
+				$('.instagram-theatre').instagramTheatre({
+					mode : 'tag',
+					accessToken : '421631593.ab103e5.e1859e7717714677813f5e926fd913a8',
+					userID : '173655274,15177929,173866327',
+					tag : "girls",
+					galleryMode: 'list',
+					galleryFullscreenPhotos: '.fsg-photos'
+				});
+			});
+		</script>
+	</head>
+
+	<body>
+		<div class="sidebar-nav">
+			<h1>Instagram Theatre</h1>
+		
+			<div class="nav">
+			    <ul>
+		        	<li class="first active"><a href="index.html">Fullscreen</a></li>
+					<li><a href="grid.html">Grid Layout</a></li>
+					<li><a href="list.html">List Layout</a></li>
+					<li class="last"><a href="http://codecanyon.net/user/xxcriversxx/portfolio">Buy This Plugin</a></li>
+				</ul>
+
+		        <div class="nav-pointer">
+		            <div id="pointer-left" style="left:-12px;"></div>
+		            <div id="pointer-right" style="left:141px"></div>
+		        </div>
+		    </div>
+	
+			<div class="social-media">
+				<a target="_blank" href="http://facebook.com"><img src="../css/images/facebook.png"></a>
+				<a target="_blank" href="http://twitter.com"><img src="../css/images/twitter.png"></a>
+				<a target="_blank" href="http://pinterest.com"><img src="../css/images/pinterest.png"></a>
+			</div>
+		</div>
+	
+		<div class="top-bar"></div>
+
+		<div class="main-content">
+			<div class="photo-nav">
+				<a class="prev"></a>
+				<a class="next"></a>
+			</div>
+		</div>
+	
+		<div class="bottom-bar"><a class="close-sidebar">Close Sidebar</a></div>
+	
+		<div class="caption-container">
+			<div class="content"></div>
+			<a class="caption-close"></a>
+		</div>
+	
+		<div class="instagram-theatre"></div>
+	
+		<div class="fsg-photos" style="display:none;">
+			<img title="title 1" rel="This a caption 1" date-created="December 25th" src="../css/images/girl.jpg" />
+			<img title="title 2" rel="This a caption 2" date-created="December 26th" src="../css/images/image2.jpg" />
+			<img title="title 3" rel="This a caption 3" date-created="December 27th" src="../css/images/image3.jpg" />
+		</div>
+
+		<div class="customization-bar">
+			<h2>Select a color:</h2>
+			<div class="colors">
+				<a data-color="#112E10" class="green" style="background-color: rgb(51, 153, 102);"></a>
+				<a data-color="#010028" class="blue" style="background-color: rgb(65, 126, 137);"></a>
+				<a data-color="#00280c" class="dark-green" style="background-color: rgb(83, 119, 101);"></a>
+				<a data-color="#4b2815" class="brown" style="background-color: rgb(120, 113, 95);"></a>
+				<a data-color="#000000" class="black" style="background-color: rgb(85, 85, 85);"></a>
+			</div>
+			
+			<h2>Search controls:</h2>
+			<form id="searchByTag">
+				<label>Search by tag</label>
+				<input class="searchTag text" type="text" value="" onfocus="this.value=''" />
+				<input class="submit" type="submit" value="go">
+			</form>
+
+			<form id="searchByUser">
+				<label>Search by user</label>
+				<input class="searchUser text" type="text" value="" onfocus="this.value=''" />
+				<input class="submit" type="submit" value="go">
+			</form>
+			
+			<form id="searchByLocation">
+				<label>Search by location</label>
+				<select class="searchLocation">
+					<option value="">Select One</option>
+					<option value="2550865">Boston, MA</option>
+					<option value="35558723">Paris, France</option>
+					<option value="203516">Rome, Italy</option>
+					<option value="2203135">Caesars Palace, Las Vegas</option>
+				</select>
+				<input class="submit" type="submit" value="go">
+			</form>
+			
+			<h2>Screen controls:</h2>
+			<a class="enterFullscreen controls">Enter Fullscreen</a>
+			<p>To enter fullscreen, you can click the close button in the footer or hit the enter key.</p>
+			
+		</div>
+	</body>
+</html>
